@@ -8,7 +8,7 @@ variable "location" {
   default = "East US"
 }
 
-variable "environament" {
+variable "environment" {
   type    = string
   default = "dev"
 }
