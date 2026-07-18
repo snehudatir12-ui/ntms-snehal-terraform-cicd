@@ -19,7 +19,7 @@ resource "azurerm_subnet" "subnet" {
 
 resource "azurerm_network_security_group" "nsg" {
   name                = local.nsg_name
-  location            = local.rg_name.location
+  location            = var.location
   resource_group_name = local.rg_name
 }
 
