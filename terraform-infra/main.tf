@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "rg" {
-  name = "${var.environment}-${var.business_unit}snehal-ntms-rg"
+  name     = "${var.environment}-${var.business_unit}snehal-ntms-rg"
   location = var.location
 }
 

@@ -1,29 +1,29 @@
 variable "vnet_address_space" {
-type = list(string)
-default = ["10.0.0.0/16"]
+  type    = list(string)
+  default = ["10.0.0.0/16"]
 }
 
 variable "location" {
-type = (string)
-default = "East US"
+  type    = (string)
+  default = "East US"
 }
 
 variable "environament" {
-type = (string)
-default = "dev"
+  type    = (string)
+  default = "dev"
 }
 
 variable "business_unit" {
-type = (string)
-default = "IT"
+  type    = (string)
+  default = "IT"
 }
 
 variable "subnet_name" {
-type = (string)
-default = "ntms-snet"
+  type    = (string)
+  default = "ntms-snet"
 }
 
 variable "subnet_prefix" {
-type = list(string)
-default = ["10.0.1.0/24"]
+  type    = list(string)
+  default = ["10.0.1.0/24"]
 }
