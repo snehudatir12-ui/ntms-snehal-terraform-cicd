@@ -4,22 +4,22 @@ variable "vnet_address_space" {
 }
 
 variable "location" {
-  type    = (string)
+  type    = string
   default = "East US"
 }
 
 variable "environament" {
-  type    = (string)
+  type    = string
   default = "dev"
 }
 
 variable "business_unit" {
-  type    = (string)
+  type    = string
   default = "IT"
 }
 
 variable "subnet_name" {
-  type    = (string)
+  type    = string
   default = "ntms-snet"
 }
 
